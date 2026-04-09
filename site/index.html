@@ -64,6 +64,7 @@
       <h1>Micro-Consulting Storefront</h1>
       <span class="badge badge-live" id="statusBadge">LIVE</span>
       <div class="header-right">
+        <button class="btn btn-ghost" id="toggleDemoBtn" type="button">Clear Demo Data</button>
         <button class="btn btn-ghost" onclick="toggleConfig()">Settings</button>
       </div>
     </header>
@@ -188,6 +189,16 @@
     document.getElementById('filterList').addEventListener('click',e=>{const item=e.target.closest('.filter-item');if(!item)return;document.querySelectorAll('.filter-item').forEach(i=>i.classList.remove('active'));item.classList.add('active');renderBoard()});
     document.getElementById('markUploaded').addEventListener('click',markUploaded);
     initBriefWorker();renderBoard();
+  </script>
+  <script src="js/demo-boot.js"></script>
+  <script>
+    BonfyreDemoBoot.init({
+      storeKey: ITEMS_KEY,
+      demoPath: 'demos/micro-consulting/demo-item.json',
+      getItems: () => items,
+      setItems: value => { items = value; },
+      renderBoard: renderBoard
+    });
   </script>
 </body>
 </html>

@@ -1,0 +1,10 @@
+{
+  "id": "demo-micro-consulting",
+  "file": "founder-advisory-session.wav",
+  "time": "Demo dataset",
+  "status": "complete",
+  "brief": "Session distilled into a compact consulting offer: tighten positioning around one buyer, replace the broad roadmap with a three-step pilot, and package the recommendation as a fixed-scope deliverable. The result reads like something ready to hand a client today.",
+  "tags": ["positioning", "pilot", "fixed-scope"],
+  "flagged": false,
+  "demo": true
+}
