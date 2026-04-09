@@ -1,0 +1,56 @@
+[
+  {
+    "id": "demo-micro-consulting-a",
+    "file": "founder-advisory-session.wav",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "Session distilled into a compact consulting offer: tighten positioning around one buyer, replace the broad roadmap with a three-step pilot, and package the recommendation as a fixed-scope deliverable. The result reads like something ready to hand a client today.",
+    "tags": [
+      "positioning",
+      "pilot",
+      "fixed-scope"
+    ],
+    "flagged": false,
+    "demo": true,
+    "searchSummary": "pricing note, founder advice, scope question",
+    "whyItMatters": "One intake becomes a searchable consulting knowledge base.",
+    "searchIntro": "One intake becomes a searchable consulting knowledge base. Search across the seeded records to feel that inside the app.",
+    "searchOutputs": []
+  },
+  {
+    "id": "demo-micro-consulting-b",
+    "file": "Related founder-advisory-session.wav",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "A second seeded record extends the same workflow so in-app search and reuse are visible instead of theoretical.",
+    "tags": [
+      "positioning",
+      "pilot",
+      "related"
+    ],
+    "flagged": false,
+    "demo": true,
+    "searchSummary": "related signals, continuity, reuse",
+    "whyItMatters": "One intake becomes a searchable consulting knowledge base.",
+    "searchIntro": "One intake becomes a searchable consulting knowledge base. Search across the seeded records to feel that inside the app.",
+    "searchOutputs": []
+  },
+  {
+    "id": "demo-micro-consulting-c",
+    "file": "Follow-up founder-advisory-session.wav",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "A third seeded record shows how this app can connect follow-up work, recurring themes, and downstream use without leaving the demo experience.",
+    "tags": [
+      "positioning",
+      "pilot",
+      "follow-up"
+    ],
+    "flagged": false,
+    "demo": true,
+    "searchSummary": "follow-up, memory, downstream action",
+    "whyItMatters": "One intake becomes a searchable consulting knowledge base.",
+    "searchIntro": "One intake becomes a searchable consulting knowledge base. Search across the seeded records to feel that inside the app.",
+    "searchOutputs": []
+  }
+]
