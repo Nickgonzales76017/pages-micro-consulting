@@ -1,0 +1,17 @@
+{
+  "title": "Follow-up founder-advisory-session.wav",
+  "public_url": "https://www.youtube.com/watch?v=wSB2yAx6680",
+  "source": {
+    "title": "Follow-up founder-advisory-session.wav",
+    "channel": "Reference corpus",
+    "duration_seconds": 113
+  },
+  "transcribe": {
+    "avg_confidence": 0.7673,
+    "avg_logprob": -0.774,
+    "rtf": 0.0402,
+    "segments_total": 17,
+    "segments_hallucinated": 2
+  },
+  "retained_media": false
+}

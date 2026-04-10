@@ -1,56 +1,110 @@
 [
   {
-    "id": "demo-micro-consulting-a",
-    "file": "founder-advisory-session.wav",
-    "time": "Reference corpus",
+    "id": "discovery-questions-prospects",
+    "file": "What Questions To Ask Prospects During The Sales Discovery Process",
+    "time": "Public origin \u00b7 274s",
     "status": "complete",
-    "brief": "Session distilled into a compact consulting offer: tighten positioning around one buyer, replace the broad roadmap with a three-step pilot, and package the recommendation as a fixed-scope deliverable. The result reads like something ready to hand a client today.",
+    "brief": "You see, that question helps you find out what's behind this person's why and what it's going to  do for them to bring you in to solve these problems in the company, brings out their emotions. Any why so important you now though or Cindy, can you be more specific or give me an example. That helps them relive more pain and clarify that pain in their own mind. These are very important to get your prospect to go under the surface with their answers and  tell you what's really going on in the world, like what problems do they really have and  what's causing the problems, the root cause.",
     "tags": [
-      "positioning",
-      "pilot",
-      "fixed-scope"
+      "discovery",
+      "consulting",
+      "advisory",
+      "sales",
+      "strategy"
     ],
-    "flagged": false,
+    "flagged": true,
     "demo": true,
-    "searchSummary": "pricing note, founder advice, scope question",
-    "whyItMatters": "One intake becomes a searchable consulting knowledge base.",
-    "searchIntro": "One intake becomes a searchable consulting knowledge base. Search across the reference records to feel that inside the app.",
-    "searchOutputs": []
+    "sourceUrl": "https://www.youtube.com/watch?v=dDGX95UkV10",
+    "sourceLabel": "Watch original public video",
+    "sourceTitle": "What Questions To Ask Prospects During The Sales Discovery Process",
+    "publisher": "Jeremy Miner",
+    "license": "Public YouTube video processed transiently. Bonfyre retained only derived artifacts.",
+    "sourceCopy": "Source: Jeremy Miner on YouTube. Bonfyre downloaded, transcribed, and deleted the media. Only the transcript, brief, and proof remain.",
+    "whyItMatters": "Advisory sessions become reusable consulting assets \u2014 frameworks, objection patterns, and client strategies searchable.",
+    "searchSummary": "discovery, consulting, advisory",
+    "searchIntro": "Search across the micro consulting records to see how Bonfyre connects related content from different sources.",
+    "outputs": [
+      "session brief",
+      "clean transcript",
+      "proof bundle",
+      "search across sessions"
+    ],
+    "outputNotes": {
+      "session brief": "Bonfyre extracted the key points from the source audio into a structured session brief.",
+      "clean transcript": "The raw transcript cleaned of filler words, false starts, and artifacts.",
+      "proof bundle": "Full provenance chain: source URL, transcription confidence, processing recipe, and quality flags."
+    },
+    "outputLinks": {
+      "brief": {
+        "href": "demos/micro-consulting/proofs/discovery-questions-prospects/brief.md",
+        "label": "Open brief"
+      },
+      "clean transcript": {
+        "href": "demos/micro-consulting/proofs/discovery-questions-prospects/clean.txt",
+        "label": "Open clean transcript"
+      },
+      "proof bundle": {
+        "href": "demos/micro-consulting/proofs/discovery-questions-prospects/proof.json",
+        "label": "Open proof JSON"
+      }
+    },
+    "searchOutputs": [
+      "search across records"
+    ],
+    "proofPath": "demos/micro-consulting/proofs/discovery-questions-prospects"
   },
   {
-    "id": "demo-micro-consulting-b",
-    "file": "Related founder-advisory-session.wav",
-    "time": "Reference corpus",
+    "id": "sales-call-preparation",
+    "file": "Powerful Pre-Sales: Sales Call Preparation For Consultants Who Want To Win More Clients",
+    "time": "Public origin \u00b7 396s",
     "status": "complete",
-    "brief": "A second reference record extends the same workflow so in-app search and reuse are visible instead of theoretical.",
+    "brief": "So, what happens so often is that the consultant  will use this conversation as an opportunity to tell the buyer all about their methodology. The idea behind this is that you want to put all this information into the hands of the idea of the dream client before you actually have that conversation with them. Proof helps to essentially, right, eliminate or significantly reduce risk. All this stuff is very, very powerful in providing proof and it helps the buyer to feel less risk because there's so much proof on the table in front of them.",
     "tags": [
-      "positioning",
-      "pilot",
-      "related"
+      "discovery",
+      "consulting",
+      "advisory",
+      "sales",
+      "strategy"
     ],
     "flagged": false,
     "demo": true,
-    "searchSummary": "related signals, continuity, reuse",
-    "whyItMatters": "One intake becomes a searchable consulting knowledge base.",
-    "searchIntro": "One intake becomes a searchable consulting knowledge base. Search across the reference records to feel that inside the app.",
-    "searchOutputs": []
-  },
-  {
-    "id": "demo-micro-consulting-c",
-    "file": "Follow-up founder-advisory-session.wav",
-    "time": "Reference corpus",
-    "status": "complete",
-    "brief": "A third reference record shows how this app can connect follow-up work, recurring themes, and downstream use without leaving the demo experience.",
-    "tags": [
-      "positioning",
-      "pilot",
-      "follow-up"
+    "sourceUrl": "https://www.youtube.com/watch?v=slNMQ9cZpRU",
+    "sourceLabel": "Watch original public video",
+    "sourceTitle": "Powerful Pre-Sales: Sales Call Preparation For Consultants Who Want To Win More Clients",
+    "publisher": "Consulting Success",
+    "license": "Public YouTube video processed transiently. Bonfyre retained only derived artifacts.",
+    "sourceCopy": "Source: Consulting Success on YouTube. Bonfyre downloaded, transcribed, and deleted the media. Only the transcript, brief, and proof remain.",
+    "whyItMatters": "Advisory sessions become reusable consulting assets \u2014 frameworks, objection patterns, and client strategies searchable.",
+    "searchSummary": "discovery, consulting, advisory",
+    "searchIntro": "Search across the micro consulting records to see how Bonfyre connects related content from different sources.",
+    "outputs": [
+      "session brief",
+      "clean transcript",
+      "proof bundle",
+      "search across sessions"
     ],
-    "flagged": false,
-    "demo": true,
-    "searchSummary": "follow-up, memory, downstream action",
-    "whyItMatters": "One intake becomes a searchable consulting knowledge base.",
-    "searchIntro": "One intake becomes a searchable consulting knowledge base. Search across the reference records to feel that inside the app.",
-    "searchOutputs": []
+    "outputNotes": {
+      "session brief": "Bonfyre extracted the key points from the source audio into a structured session brief.",
+      "clean transcript": "The raw transcript cleaned of filler words, false starts, and artifacts.",
+      "proof bundle": "Full provenance chain: source URL, transcription confidence, processing recipe, and quality flags."
+    },
+    "outputLinks": {
+      "brief": {
+        "href": "demos/micro-consulting/proofs/sales-call-preparation/brief.md",
+        "label": "Open brief"
+      },
+      "clean transcript": {
+        "href": "demos/micro-consulting/proofs/sales-call-preparation/clean.txt",
+        "label": "Open clean transcript"
+      },
+      "proof bundle": {
+        "href": "demos/micro-consulting/proofs/sales-call-preparation/proof.json",
+        "label": "Open proof JSON"
+      }
+    },
+    "searchOutputs": [
+      "search across records"
+    ],
+    "proofPath": "demos/micro-consulting/proofs/sales-call-preparation"
   }
 ]

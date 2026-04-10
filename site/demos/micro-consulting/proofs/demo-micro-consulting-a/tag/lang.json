@@ -1,0 +1,20 @@
+{
+  "type": "language-detection",
+  "languages": [
+    {
+      "language": "en",
+      "confidence": 0.9726,
+      "votes": 8
+    },
+    {
+      "language": "es",
+      "confidence": 0.0024,
+      "votes": 4
+    }
+  ],
+  "tags": [
+    "positioning",
+    "pilot",
+    "fixed-scope"
+  ]
+}
