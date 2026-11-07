@@ -3,7 +3,21 @@
 > Solo biz in one repo — record advice, auto-package, publish
 
 
-## Pipeline Intelligence
+## Aurekai / Bonfÿre: product contract
+
+| | This experience |
+|---|---|
+| **Audience / value** | Independent consultants: Package sourced professional advice and deliverables for review |
+| **Project** | A public-facing, source-oriented Aurekai workflow over files and reviewable records |
+| **Technical scope** | GitHub Pages interface and repository-based intake; inspect the actual Actions/workflow before claiming processing or deployment |
+| **Maturity** | Example storefront workflow; a published package is not proof of a paid engagement |
+| **Acceptance** | Follow the repository's instructions and verify actual generated files, tests, rights and destination readback |
+
+**Aurekai** is the digital operating business and public distribution network; **Bonfÿre** is the reusable software, source/authority and verified-work engine. [Business and technical model](https://github.com/Nickgonzales76017/bonfyre/blob/main/docs/aurekai-bonfyre-model.md).
+
+## Historical shared-pipeline figures (not current-site acceptance)
+
+The inherited metrics below describe an earlier shared Bonfÿre/HCP pipeline snapshot; they are **not measurements of this Pages experience**, proof of an installed native runtime, or a guarantee of model accuracy. Verify the exact model, code revision, fixtures and executed workflow for current claims.
 
 | Capability | Detail |
 |---|---|
