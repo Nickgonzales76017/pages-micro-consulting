@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Micro-Consulting Storefront</title>
+  <title>Offer consulting services</title>
   <style>
     :root{--bg:#0a0a0a;--fg:#e0e0e0;--accent:#ff6600;--surface:#151515;--border:#333;--dim:#888;--green:#22c55e;--red:#ef4444;--yellow:#eab308}
     *{margin:0;padding:0;box-sizing:border-box}
@@ -117,10 +117,10 @@
 </style>
 </head>
 <body>
-<nav class="aurekai-network-nav" aria-label="Aurekai application network"><span><a href="https://nickgonzales76017.github.io/bonfyre/discover/"><strong>AUREKAI</strong></a> / Micro-Consulting Storefront</span><div><a href="https://nickgonzales76017.github.io/bonfyre/discover/">All 20 applications</a><a href="https://nickgonzales76017.github.io/bonfyre/blog/productized-service-first-is-not-every-founders-rule/">Related research</a><a href="https://nickgonzales76017.github.io/bonfyre/fieldwork/">Fieldwork stories</a></div></nav>
+<nav class="aurekai-network-nav" aria-label="Aurekai application network"><span><a href="https://nickgonzales76017.github.io/bonfyre/discover/"><strong>AUREKAI</strong></a> / Offer consulting services</span><div><a href="https://nickgonzales76017.github.io/bonfyre/discover/">All 20 applications</a><a href="https://nickgonzales76017.github.io/bonfyre/blog/productized-service-first-is-not-every-founders-rule/">Related research</a><a href="https://nickgonzales76017.github.io/bonfyre/fieldwork/">Fieldwork stories</a></div></nav>
   <div class="app">
     <header>
-      <h1>Micro-Consulting Storefront</h1>
+      <h1>Offer consulting services</h1>
       <span class="badge badge-demo" id="statusBadge">DEMO</span>
       <div class="header-right">
         <button class="btn btn-ghost" id="toggleDemoBtn" type="button">Hide Corpus</button>
@@ -223,7 +223,7 @@
       try{const preparedDownload=BonfyreGitHubIntake.createPreparedDownload(file,preparedName);updateStep('prepare','done');updateStep('commit','active');showIntakePreview(activeIntake,preparedDownload);
         const item={id:itemId,file:preparedName,time:new Date().toLocaleString(),status:'awaiting-upload',brief:null,tags:[],flagged:false,targetPath};
         items=BonfyreGitHubIntake.upsertItem(items,item);localStorage.setItem(ITEMS_KEY,JSON.stringify(items));renderBoard();
-        if(BonfyreGitHubIntake.isTextLikeFile(file)){const text=await file.text();runBriefWasm(text,itemId)}else{showWasmPreview('GitHub-native launch ready.\n\n1. Download the intake-ready copy.\n2. Upload it in the repo input folder using GitHub web UI.\n3. Commit on the configured branch.\n\nMicro-Consulting Storefront will poll the public artifact outputs after that commit lands.')}
+        if(BonfyreGitHubIntake.isTextLikeFile(file)){const text=await file.text();runBriefWasm(text,itemId)}else{showWasmPreview('GitHub-native launch ready.\n\n1. Download the intake-ready copy.\n2. Upload it in the repo input folder using GitHub web UI.\n3. Commit on the configured branch.\n\nThis page will check the public artifact outputs after that commit lands.')}
       }catch(err){console.error(err);alert('Intake preparation failed: '+err.message);hidePipeline()}}
     async function githubGetFile(path){return BonfyreGitHubIntake.fetchRawFile({repo:config.repo,branch:config.branch,path:path})}
     function buildUploadFolderUrl(){return BonfyreGitHubIntake.buildUploadFolderUrl({repo:config.repo,branch:config.branch,inputPath:INPUT_PATH})}
